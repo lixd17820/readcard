@@ -1,0 +1,7 @@
+#Sun Oct 01 12:42:56 CST 2017
+base.0=D\:\\android_project\\readcard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8f65588b09044241397f3aab4d02d485f7549f39
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\android_project\\readcard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_198741820ec01e258d767bef7167a4e5d07e6dab\\classes.dex
+base.1=D\:\\android_project\\readcard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_198741820ec01e258d767bef7167a4e5d07e6dab
+file.0=D\:\\android_project\\readcard\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8f65588b09044241397f3aab4d02d485f7549f39\\classes.dex

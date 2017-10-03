@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+     android:background="@drawable/bg">
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <!-- 第前三行行数据 -->
+                <!-- 第一行数据 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="姓名 "
+                        android:textColor="#333"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="0.5px"
+                        android:layout_height="fill_parent"
+                        android:background="#B8B8B8"
+                        android:visibility="visible" />
+
+                    <EditText
+                        android:id="@+id/et_XM"
+                        android:layout_width="120dp"
+                        android:layout_height="29dip"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/bg_edittext"
+                        android:hint="姓名"
+                        android:singleLine="true" >
+                    </EditText>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="220dp"
+                    android:layout_height="0.5px"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <!-- 第2行数据 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingTop="2dp"
+                        android:text="性别 "
+                        android:textColor="#333"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="0.5px"
+                        android:layout_height="fill_parent"
+                        android:background="#B8B8B8"
+                        android:visibility="visible" />
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup_XB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dip"
+                        android:contentDescription="性别"
+                        android:orientation="horizontal" >
+
+                        <RadioButton
+                            android:id="@+id/radioMale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="男"
+                            android:textColor="#000000" >
+                        </RadioButton>
+
+                        <RadioButton
+                            android:id="@+id/radioFemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="女"
+                            android:textColor="#000000" >
+                        </RadioButton>
+                    </RadioGroup>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="220dp"
+                    android:layout_height="0.5px"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <!-- 第3行数据 -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/tvValue"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="民族 "
+                        android:textColor="#333"
+                        android:textSize="15sp" />
+
+                    <View
+                        android:layout_width="0.5px"
+                        android:layout_height="fill_parent"
+                        android:background="#B8B8B8"
+                        android:visibility="visible" />
+
+                    <EditText
+                        android:id="@+id/et_MZ"
+                        android:layout_width="120dp"
+                        android:layout_height="29dip"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/bg_edittext"
+                        android:editable="false"
+                        android:hint="民族"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="220dp"
+                    android:layout_height="0.5px"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+            </LinearLayout>
+ <!--  -->
+            <!-- 照片 -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="0.5px"
+                    android:layout_height="115dp"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:text=" 照   \n\n 片  "
+                    android:textColor="#333"
+                    android:textSize="16sp" />
+
+                <View
+                    android:layout_width="0.5px"
+                    android:layout_height="115dp"
+                    android:background="#B8B8B8"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/iv_idCardFace"
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="top"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="0dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_sfz" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+        <!-- 前三行结束 -->
+        <!-- 第四行 出生日期 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="出生日期 "
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/et_CSRQ"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_edittext"
+                android:editable="false"
+                android:hint="出生日期"
+                android:singleLine="true" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+        <!-- 第四行 结束 -->
+        <!-- 第5行  身份证号码 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="身份证号码 "
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/et_GMSFHM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_edittext"
+                android:editable="false"
+                android:hint="公民身份证号码"
+                android:singleLine="true" >
+            </EditText>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+        <!-- 第5行 结束 -->
+
+
+        <!-- 第6行户口所在地址 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="住址 "
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/et_HJDXZ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/bg_edittext"
+                android:editable="false"
+                android:hint="户籍地详址"
+                android:maxLines="2"
+                android:singleLine="false" >
+            </EditText>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+
+     
+
+        <!-- 第7 有效期 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="签发机关"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/et_issnue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_edittext"
+                android:editable="false"
+                android:hint="签发机关"
+                android:singleLine="true" >
+            </EditText>
+        </LinearLayout>
+         <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+        
+        <!--有效期限-->
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="有效期限"
+                android:textColor="#333"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="0.5px"
+                android:layout_height="fill_parent"
+                android:background="#B8B8B8"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/et_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/bg_edittext"
+                android:editable="false"
+                android:hint="现住地址"
+                android:singleLine="true" >
+            </EditText>
+        </LinearLayout>
+        <!-- 开锁地点 -->
+            <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5px"
+            android:background="#B8B8B8"
+            android:visibility="visible" />
+        <!--开锁原因 -->
+        
+        <!-- 是否与110联动 -->
+        
+        
+        <!-- 开锁记录单编号 -->
+        
+        <!-- 开锁人 -->
+        
+        <!-- 开锁时间 -->
+        <!-- 登记人 -->
+
+ 	<TextView 
+ 	    android:layout_marginTop="20dp"
+ 	    android:id="@+id/mTVHint"
+ 	    android:layout_width="wrap_content"
+ 	    android:layout_height="wrap_content"
+ 	    android:textSize="20sp"
+ 	    
+ 	    />
+
+      
+ 
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

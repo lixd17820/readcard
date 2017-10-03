@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\android_project\\readcard\\app\\build\\intermediates\\res\\merged\\debug\\raw\\success.wav",
+        "source": "D:\\android_project\\readcard\\app\\src\\main\\res\\raw\\success.wav"
+    },
+    {
+        "merged": "D:\\android_project\\readcard\\app\\build\\intermediates\\res\\merged\\debug\\raw\\error.wav",
+        "source": "D:\\android_project\\readcard\\app\\src\\main\\res\\raw\\error.wav"
+    }
+]

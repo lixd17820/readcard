@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\android_project\readcard\app\src\main\jniLibs"><file name="armeabi/libSDSES_Wlt_1.2.so" path="D:\android_project\readcard\app\src\main\jniLibs\armeabi\libSDSES_Wlt_1.2.so"/></source></dataSet><dataSet config="debug"><source path="D:\android_project\readcard\app\src\debug\jniLibs"/></dataSet></merger>
